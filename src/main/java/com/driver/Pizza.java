@@ -73,13 +73,13 @@ public class Pizza {
             isBillGenerated = true;
 
             if(addCheez == true){
-                this.bill = this.bill + "Extra Cheese Added:" + this.extraCheezPrice + "\n";
+                this.bill = this.bill + "Extra Cheese Added: " + this.extraCheezPrice + "\n";
             }
             if(addToppings == true){
-                this.bill = this.bill + "Extra Toppings Added:" + this.extraToppingPrice + "\n";
+                this.bill = this.bill + "Extra Toppings Added: " + this.extraToppingPrice + "\n";
             }
             if(takeAway == true){
-                this.bill = this.bill + "Paperbag Added:" + this.takeAwayCost+ "\n";
+                this.bill = this.bill + "Paperbag Added: " + this.takeAwayCost+ "\n";
             }
             this.bill = this.bill + "Total Price: " + this.price;
         }
